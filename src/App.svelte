@@ -1,6 +1,9 @@
 <script>
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+  import TimerContainer from './lib/TimerContainer.svelte'
+
+  
 </script>
 
 <main>
@@ -8,16 +11,9 @@
   <h1>Hello world!</h1>
 
   <Counter />
+  <TimerContainer />
 
-  <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
+  
 </main>
 
 <style>
@@ -28,8 +24,6 @@
 
   main {
     text-align: center;
-    padding: 1em;
-    margin: 0 auto;
   }
 
   img {
@@ -47,19 +41,4 @@
     max-width: 14rem;
   }
 
-  p {
-    max-width: 14rem;
-    margin: 1rem auto;
-    line-height: 1.35;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      max-width: none;
-    }
-
-    p {
-      max-width: none;
-    }
-  }
 </style>
