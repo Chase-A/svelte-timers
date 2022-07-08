@@ -9,6 +9,8 @@
         "blender",
         "krita",
         "gx",
+        "exertion",
+        "meditation",
     ];
 </script>
 
