@@ -31,7 +31,7 @@
 </script>
 
 <section>
-    <h3>{title}: {totalRounded}s</h3>
+    <h3>{title}: {totalRounded}min</h3>
 
     <p class="time">{displayTime}</p>
 	{#if timerState === 0}
